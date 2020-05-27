@@ -19,7 +19,7 @@ def kangaroo(x1, v1, x2, v2):
             return 'NO'
     else:
         t = (x2 - x1) / (v1 - v2)
-        if t > 0 and t % 1 == 0:
+        if t > 0 and isinstance(t, int):
             return 'YES'
         else:
             return 'NO'
