@@ -26,7 +26,6 @@ def timeConversion(s):
 
 if __name__ == '__main__':
     f = open(os.environ['OUTPUT_PATH'], 'w')
-
     s = input()
 
     result = timeConversion(s)
